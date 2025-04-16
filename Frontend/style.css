@@ -1,0 +1,413 @@
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background: #fef9f9;
+  color: #1f2937;
+}
+
+.auth-container {
+  max-width: 400px;
+  margin: 5rem auto;
+  padding: 2rem;
+  background: #fff0f4;
+  border-radius: 1.25rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.auth-container input {
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+  padding: 0.75rem;
+  border-radius: 1rem;
+  border: 1px solid #d1d5db;
+  font-size: 1rem;
+}
+
+.auth-container button {
+  background-color: #ec4899;
+  color: white;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.auth-footer {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.header {
+  background: linear-gradient(to right, #fbcfe8, #f9a8d4);
+  text-align: center;
+  padding: 3rem 1rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.logout-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 0.25rem;
+  font-family: 'VT323', monospace;
+  color: #1e293b;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: #374151;
+}
+
+.main-container {
+  max-width: 48rem;
+  margin: 3rem auto;
+  background: #ffffff;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.07);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.chat-box {
+  background: #f9fafb;
+  border-radius: 1rem;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  max-height: 300px;
+  overflow-y: auto;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.03);
+}
+
+.user-msg, .amara-msg {
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  max-width: 75%;
+  border-radius: 1.25rem;
+  line-height: 1.4;
+  font-size: 0.95rem;
+}
+
+.user-msg {
+  background: #fbcfe8;
+  margin-left: 0;
+}
+
+.amara-msg {
+  background: #dbeafe;
+  margin-left: auto;
+  text-align: right;
+}
+
+.input-area {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.chat-input {
+  flex: 1;
+  padding: 0.75rem;
+  border-radius: 1rem;
+  border: 1px solid #d1d5db;
+  background: #f3f4f6;
+  font-size: 0.95rem;
+  outline: none;
+}
+
+.send-btn {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.send-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.quote-clouds {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 3rem 2rem;
+  justify-content: center;
+  background: #fff1f2;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  margin-top: 4rem;
+}
+
+.quote-cloud {
+  background: #fef3c7;
+  padding: 1rem 1.5rem;
+  border-radius: 1.5rem;
+  max-width: 300px;
+  font-style: italic;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+  font-size: 0.95rem;
+  color: #4b5563;
+  position: relative;
+}
+
+.quote-cloud::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  background: #fef3c7;
+  border-radius: 50%;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  color: #6b7280;
+  font-size: 0.85rem;
+}
+.about-section, .how-it-works, .journal-section, .tools-section, .emergency-section, .testimonials-section {
+  max-width: 48rem;
+  margin: 3rem auto;
+  background: #ffffff;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.06);
+  font-size: 1rem;
+  color: #374151;
+}
+
+.about-section h2,
+.how-it-works h2,
+.journal-section h2,
+.tools-section h2,
+.emergency-section h2,
+.testimonials-section h2 {
+  font-size: 1.5rem;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.how-it-works ul {
+  padding-left: 1.25rem;
+}
+
+.tool-card {
+  background-color: #fef3c7;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.testimonials-section blockquote {
+  font-style: italic;
+  padding: 1rem;
+  border-left: 4px solid #fbbf24;
+  margin: 1rem 0;
+  background: #fff7ed;
+  border-radius: 0.5rem;
+}
+/* 🌸 Background */
+body {
+  background-color: #ffeaf1;
+  font-family: 'Quicksand', sans-serif;
+  color: #1f2937;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🌟 Header */
+.header {
+  background: linear-gradient(to right, #fbcfe8, #f9a8d4);
+  padding: 2rem;
+  text-align: center;
+  color: #4c1d95;
+  border-bottom: 3px dashed #f472b6;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin: 0;
+  font-family: 'VT323', monospace;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+/* 💬 Chat Box */
+.chat-box {
+  background-color: #fff7e6;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.06);
+  margin-bottom: 1rem;
+}
+
+.user-msg, .amara-msg {
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 1rem;
+  font-size: 1rem;
+}
+
+.user-msg {
+  background-color: #d1fae5;
+  align-self: flex-end;
+  text-align: right;
+  color: #065f46;
+}
+
+.amara-msg {
+  background-color: #e9d5ff;
+  color: #6b21a8;
+}
+
+/* 📥 Input */
+.input-area {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.chat-input {
+  flex: 1;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+.send-btn {
+  background-color: #a78bfa;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.send-btn:hover {
+  background-color: #7c3aed;
+}
+
+/* 📚 Sections */
+.about-section, .how-it-works, .journal-section, .tools-section, .emergency-section, .testimonials-section {
+  background-color: #fff7e6;
+  max-width: 48rem;
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+  color: #1f2937;
+}
+
+/* 📝 Headings */
+.about-section h2, .how-it-works h2, .journal-section h2,
+.tools-section h2, .emergency-section h2, .testimonials-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #4c1d95;
+  border-bottom: 2px dashed #c084fc;
+  padding-bottom: 0.5rem;
+}
+
+/* 🌀 How It Works List */
+.how-it-works ul {
+  padding-left: 1.25rem;
+}
+
+.how-it-works li {
+  margin-bottom: 0.5rem;
+  color: #6b7280;
+}
+
+/* 💖 Tools */
+.tool-card {
+  background-color: #fef3c7;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+}
+
+/* 💬 Testimonials */
+.testimonials-section blockquote {
+  font-style: italic;
+  padding: 1rem;
+  border-left: 5px solid #fbbf24;
+  background-color: #fefce8;
+  border-radius: 0.75rem;
+  margin: 1rem 0;
+  color: #92400e;
+}
+
+/* 🌈 Quotes */
+.quote-clouds {
+  background: linear-gradient(to right, #fbcfe8, #a5f3fc);
+  padding: 2rem;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #374151;
+  border-radius: 2rem;
+  margin: 4rem auto;
+  max-width: 48rem;
+}
+
+.quote-cloud {
+  margin-bottom: 1rem;
+}
+
+/* 🌍 Footer */
+.footer {
+  background-color: #fdf2f8;
+  text-align: center;
+  padding: 2rem;
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: #9333ea;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+
+
+
+
