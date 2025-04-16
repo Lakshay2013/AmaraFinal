@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login | Amara</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="auth-container">
+    <h1 class="title">Welcome to Amara 🌸</h1>
+    <p class="subtitle">Your AI Therapist</p>
+    <form id="auth-form">
+      <input type="text" placeholder="Username" id="username" required />
+      <input type="password" placeholder="Password" id="password" required />
+      <button type="submit">Login</button>
+      <p class="auth-footer">Don't have an account? <a href="#">Sign up</a></p>
+    </form>
+  </div>
+
+  <script>
+    const form = document.getElementById('auth-form');
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      // Dummy check (no real auth)
+      const username = document.getElementById('username').value;
+      const password = document.getElementById('password').value;
+
+      if (username && password) {
+        // Redirect to the Amara page
+        window.location.href = 'amara.html';
+      } else {
+        alert('Please fill in both fields.');
+      }
+    });
+  </script>
+</body>
+</html>
+
+
+
+
+
